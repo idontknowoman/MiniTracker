@@ -85,7 +85,7 @@ function getOpenTypeButton(body: HTMLElement, inputEventHandlers:string[]){
   const buttonTags = body.getElementsByTagName('button');
   for (let i = 0; i < buttonTags.length; i++) {
     const opentype = buttonTags[i].getAttribute('open-type');
-    if (opentype !== null && opentype === 'getPhoneNumber') {
+    if (opentype !== null && (opentype === 'getPhoneNumber' || opentype === 'getRealtimePhoneNumber')) {
       let handler = buttonTags[i].getAttribute('bindgetphonenumber')
       if (handler.charAt(0) === '\'' && handler.charAt(handler.length-1) === '\''){
         handler = handler.substring(1,handler.length-1);
