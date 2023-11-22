@@ -95,7 +95,25 @@
         "wx.getExtConfig",
         "wx.getPhoneNumber",
 
-        "wx.input"
+        "wx.input",
+        "wx.startLocationUpdate",
+        "wx.getFuzzyLocation",
+        "wx.choosePoi",
+        "wx.chooseLocation",
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice",
+        "wx.chooseLicensePlate",
+        "RecorderManager.start",
+        "wx.joinVoIPChat",
+        "wx.createVKSession",
+        "wx.openBluetoothAdapter",
+        "wx.createBLEPeripheralServer",
+        "wx.addPhoneRepeatCalendar",
+        "wx.addPhoneCalendar",
+        "wx.startAccelerometer",
+        "wx.startCompass",
+        "wx.startDeviceMotionListening",
+        "wx.startGyroscope"
     ],
     "sinks": [
         "wx.request",
